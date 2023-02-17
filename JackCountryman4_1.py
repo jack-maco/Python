@@ -51,7 +51,6 @@ def FreqOut(Freq):
 def XDOut(XD):
     nums = []
     with open('Lab 4/files/output.txt', 'w+') as file:
-        print(XD)
         for i in XD:
             file.write(f'{i}\n')
             nums.append(float(i[20:]))
